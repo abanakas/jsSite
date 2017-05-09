@@ -65,7 +65,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="photos.html" />
     <Content Include="about.html" />
+    <Content Include="media\photos\dsc0356-editjpg.jpg" />
+    <Content Include="media\photos\tha-phae-gate.jpg" />
     <Content Include="menuBar.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
