@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>GridRowsColumns - 05/08/2017</title>
+   <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <link href="Content/sitecss.css" rel="stylesheet" />
+   <link rel="stylesheet" href="Content/bootstrap.min.css"/>
+   <script src="Scripts/jquery-1.10.2.js"></script>
+   <script src="Scripts/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="Content/bootstrap-theme.min.css"/>
+   <script src="informationBubble.js"></script>
+</head>
+
+<body>
+    <button id="infobutton" class="btn btn-danger btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-info-sign"></span></button>
+    <div id="info">I found this tutorial, <a href="http://www.htmlgoodies.com/html5/client/making-beautiful-style-together-visual-studio-and-bootstrap.html">Making Beautiful Style Together: Visual Studio and Bootstrap</a>, and I'm giving bootstrap a try.  It appears as though one of the main components of bootstrap is that it works off a grid concept.  I find myself to be good with tables, so this looks like it may be easy to learn and understand.</div>
+
+    <div class="container-fluid">
+        <h1>Working with Grid Rows/Columns</h1>
+        <p>Resize your browser window to see the magic...</p>
+        <div class="row">
+            <div class="col-md-4" style="background-color:pink;">
+                Of all the animals in the world, my favorite is the sphynx.
+            </div>
+            <div class="col-md-4" style="background-color:papayawhip;">
+                Of all the vegetables in the world, my favorite is the loofah.
+            </div>
+            <div class="col-md-4" style="background-color:paleturquoise;">
+                Of all the minerals in the world, my favorite is the goosecreekite.
+            </div>
+        </div>
+    </div>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
+</body>
+</html>

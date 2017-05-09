@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA05SFIHYpOUeiJlZn1q8XTgAAAAACAAAAAAAQZgAAAAEAACAAAACvInamRS9OJt6BhsQFJuDgmpOS5qRMl7oglnPCYeaSMgAAAAAOgAAAAAIAACAAAAB1JGoG+RkjoPqMdncPvt/nOqGg9JbpBx6NVTt2Ufm+iiAAAAB+UKIY2uI8PXoC6MhW6wwIVmHpN8YLExuy+1AsNmAlp0AAAAAKi4SRvcDz/Vu/aLdGd7L2XfByiCOAcEPYs/oPhFGpltHDcuOcM64nEko/EymSrT5HQt7QwELQAeRqVq/Ng3ei</EncryptedPassword>
+    <_PublishTargetUrl>ftp://banakasdesigns.com/banakasdesigns/JSProjectSite/js.banakasdesigns.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/jsSite.dll">
+      <publishTime>05/08/2017 21:19:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/13/2016 02:10:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Content/sitecss.css">
+      <publishTime>05/08/2017 20:28:30</publishTime>
+    </File>
+    <File Include="dateToday.js">
+      <publishTime>05/08/2017 17:09:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="GridRows.html">
+      <publishTime>05/08/2017 20:47:22</publishTime>
+    </File>
+    <File Include="GridRowsColumns.aspx">
+      <publishTime>05/08/2017 20:43:40</publishTime>
+    </File>
+    <File Include="GridRowsColumns.html">
+      <publishTime>05/08/2017 20:45:24</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>05/08/2017 20:47:17</publishTime>
+    </File>
+    <File Include="informationBubble.js">
+      <publishTime>05/08/2017 19:34:38</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>05/08/2017 20:47:38</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>05/08/2017 16:49:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>05/08/2017 16:49:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>05/08/2017 16:49:42</publishTime>
+    </File>
+    <File Include="Scripts/qTip/jquery.qtip.css">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Scripts/qTip/jquery.qtip.js">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Scripts/qTip/jquery.qtip.min.css">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Scripts/qTip/jquery.qtip.min.js">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Scripts/qTip/jquery.qtip.min.js.map">
+      <publishTime>05/08/2017 18:08:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/08/2017 21:19:19</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>05/08/2017 17:12:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
