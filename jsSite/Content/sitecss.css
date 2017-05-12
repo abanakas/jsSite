@@ -30,3 +30,7 @@ html {
     background-size: cover;
     z-index:-1;
     }
+
+canvas {
+    border: 3px #CCC solid;
+}

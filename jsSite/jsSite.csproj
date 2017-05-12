@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="canvas.html" />
     <Content Include="photos.html" />
     <Content Include="about.html" />
     <Content Include="media\photos\dsc0356-editjpg.jpg" />
