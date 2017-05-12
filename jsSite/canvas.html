@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Canvas - 12MAY2017</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Content/sitecss.css" />
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="Content/bootstrap-theme.min.css" />
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/informationBubble.js"></script>
+    <script src="Scripts/ddmenu.js" type="text/javascript"></script>
+    <style>
+        canvas {
+            border: 3px #CCC solid;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a id="ddmenuLink" href="menuBar.html"></a>
+    <button id="infobutton" class="btn btn-danger btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-info-sign"></span></button>
+    <div id="info">Last night, I came across a video about canvas.  So, today, I found this tutorial, <a href="https://www.kirupa.com/html5/creating_simple_html5_canvas_animation.htm">Creating a Simple HTML5 Canvas Animation</a>, and created this little page. </div>
+
+    <h2>Canvas</h2>
+    <div id="container">
+        <canvas id="myCanvas" height="450" width="450"></canvas>
+    </div>
+    <script>
+        var mainCanvas = document.querySelector("#myCanvas");
+        var mainContext = mainCanvas.getContext("2d");
+
+        var canvasWidth = mainCanvas.width;
+        var canvasHeight = mainCanvas.height;
+
+        var angle = 0;
+
+        var requestAnimationFrame = window.requestAnimationFrame ||
+            window.mozRequestAnimationFrame ||
+            window.webkitRequestAnimationFrame ||
+            window.msRequestAnimationFrame;
+
+        function drawCircle() {
+            mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+
+            //color in the background
+            mainContext.fillStyle = "#EEEEEE";
+            mainContext.fillRect(0, 0, canvasWidth, canvasHeight);
+
+            //draw the circle
+            mainContext.beginPath();
+
+            var radius = 25 + 150 * Math.abs(Math.cos(angle));
+            mainContext.arc(225, 225, radius, 0, Math.PI * 2, false);
+            mainContext.closePath();
+
+            //color in the circle
+            mainContext.fillStyle = "#006699";
+            mainContext.fill();
+
+            angle += Math.PI / 64;
+
+            requestAnimationFrame(drawCircle);
+
+        }
+        drawCircle();
+    </script>
+</body>
+</html>
